@@ -5,8 +5,8 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $name = $_POST['name'];
 $email = $_POST['email'];
-$country = $_POST['country'];
-$cars = $_POST['cars'];
+$motivo = $_POST['motivo'];
+$comments = $_POST['comments'];
 
 $message = "
 <html>
@@ -17,7 +17,8 @@ $message = "
 <h1>Contacto information from the website</h1>
 <p>User name: $name </p> 
 <p>Email: $email </p> 
-<p>Where are you from?: $country </p>
+<p>Tipo de Trabajo: $motivo </p>
+<p>Comentario: $comments </p>
 </body>
 </html>";
  echo 'Thanks';

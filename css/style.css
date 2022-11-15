@@ -17,6 +17,12 @@ nav a img{
     padding: 5px;
 }
 
+img:hover {
+    filter:grayscale(100%);
+    transition: all 1s linear;
+    
+    }
+
 .navbar-brand{
     font-family: 'ft88';
     letter-spacing: -2px;
@@ -89,12 +95,19 @@ p{
 }
 
 .modal-title{
-    font-size: 50px;
+    font-size: 15px;
     letter-spacing: 0px;
 }
 .modal-header{
     background-color: rgb(255, 17, 116);
 }
+
+textarea {
+    resize: none;
+    height: 100px;
+    width: 100vw;
+    }
+    
 
 article{
     margin-bottom: 50px;
